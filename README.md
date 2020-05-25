@@ -2,6 +2,8 @@
 
 This notebook permit to make a selection model for text classification. The goal is to compare with different metrics machine learning and deep learning algorithms. It is configure to make classification with French and English texts.
 
+This work has been presented in [Model Selection in Text Classification](https://towardsdatascience.com/model-selection-in-text-classification-ac13eedf6146) published in [Towards Data Science](https://towardsdatascience.com/)
+
 ## Models 
 ### Machine Learning
 The models implemented in the notebook for model selection are :
