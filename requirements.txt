@@ -1,0 +1,13 @@
+pandas
+numpy
+tensorflow
+keras
+tqdm
+sklearn
+googletrans
+xgboost
+textblob
+seaborn
+fasttext
+tqdm
+stanza
