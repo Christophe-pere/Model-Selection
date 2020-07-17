@@ -10,4 +10,5 @@ textblob
 seaborn
 fasttext
 tqdm
-stanza
+lightgbm
+catboost
