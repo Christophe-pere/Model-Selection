@@ -1,17 +1,17 @@
 # Model Selection for Text Classification
 
-This notebook permit to make a selection model for text classification. The goal is to compare with different metrics machine learning and deep learning algorithms. It is configure to make classification with French and English texts.
+This notebook permit to make a selection model for text classification (Binary and multiclass) using Tensorflow 2.x and Keras. The goal is to compare with different metrics machine learning and deep learning algorithms. It is configure to make classification with French and English texts.
 
 This work has been presented in [Model Selection in Text Classification](https://towardsdatascience.com/model-selection-in-text-classification-ac13eedf6146) published in [Towards Data Science](https://towardsdatascience.com/)
 
 ## Models 
 ### Machine Learning
 The models implemented in the notebook for model selection are :
-Multinomial Naive Bayes, logistic Regression, SVM, k-NN, Stochastic Gradient Descent, Gradient Boosting, XGBoost (Early stopping are implemented to stop the training to avoid overfitting).
+Multinomial Naive Bayes, logistic Regression, SVM, k-NN, Stochastic Gradient Descent, Gradient Boosting, XGBoost (Early stopping are implemented to stop the training to avoid overfitting) Adaboost, Catboost, LightGBM and ExtraTrees Classifier.
 
 ### Deep Learning
 The models implemented are:
-Shallow Network,Deep Neaural Network,RNN, LSTM, CNN, GRU, CNN-LSTM, CNN-GRU, Bidirectional RNN, Bidirectional LSTM, Bidirectional GRU, RCNN (Early stopping are implemented to stop the training to avoid overfitting).
+Shallow Network, Deep Neaural Network, RNN, LSTM, CNN, GRU, CNN-LSTM, CNN-GRU, Bidirectional RNN, Bidirectional LSTM, Bidirectional GRU, RCNN and Transformers (Early stopping are implemented to stop the training to avoid overfitting).
 
 ## Architecture of the notebook
 - Module importation
@@ -56,7 +56,6 @@ Shallow Network,Deep Neaural Network,RNN, LSTM, CNN, GRU, CNN-LSTM, CNN-GRU, Bid
 --- 
 Next steps:
 - Use compressed layer with [TensorNet](https://github.com/google/TensorNetwork) like this [post](https://blog.tensorflow.org/2020/02/speeding-up-neural-networks-using-tensornetwork-in-keras.html) 
-- Use [Transformers](https://arxiv.org/abs/1706.03762) ([HuggingFace](https://huggingface.co/))
 - Distributed Neural Networks
 - GridSearch for Hyperparameters tuning
 - Transform the notebook in script with dictionnary of models to test 
